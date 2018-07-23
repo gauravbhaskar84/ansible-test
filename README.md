@@ -5,6 +5,7 @@
 Answer: "login_user" and "login_password" had to be added in the file - task/roles/db/tasks/main.yml
 
 2. The system as it is allow all traffic to the server, create a role to limit access to the server via ports 80, 443 & 22 using iptables
+
 Answer: This part is only pending from this tasks. Trying to get this done and push the code, but did not want to waste the time on it.
 
 3. Add http redirection so all traffic will be served via https
